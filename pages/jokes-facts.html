@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes & Facts Bot - Discord Bots Hub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Jokes & Facts Bot - Entertaining Discord bot with jokes, facts, trivia, and fun commands.">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <svg class="logo-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z" fill="currentColor"/>
+                    </svg>
+                    <span>DiscordBots</span>
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="how-to-make.html">How To Make</a></li>
+                <li><a href="space-bot.html">Space Bot</a></li>
+                <li><a href="jokes-facts.html" class="active">Jokes & Facts</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bot-details">
+            <div class="bot-header">
+                <img src="https://pixabay.com/get/g6683748cd7cba87974b3dcb742ef5178feae628f381397fc0e330fa0acb8a4f4350117610da08b6b389e0baff3d7e5124930924afad72a52df4192e03be19f2c_1280.jpg" alt="Jokes & Facts Bot" class="bot-avatar">
+                <h1 class="bot-name">Jokes & Facts Bot</h1>
+                <p class="bot-tagline">Entertaining Discord bot with jokes, facts, and fun commands</p>
+                <div class="bot-cta">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1368755467790192711" class="btn primary" target="_blank">Add to Discord</a>
+                </div>
+            </div>
+
+            <div class="bot-info-container">
+                <div class="bot-info-left">
+                    <div class="bot-description">
+                        <h2>About This Bot</h2>
+                        <p>Jokes & Facts Bot is an entertaining Discord bot designed to bring fun and knowledge to your server. It offers a wide variety of jokes from different categories, interesting facts, riddles, and more. Perfect for breaking the ice or learning something new, this bot helps create an engaging atmosphere in your community.</p>
+                    </div>
+
+                    <div class="bot-features">
+                        <h3>Bot Features</h3>
+                        <ul class="feature-list">
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Multiple joke categories</li>
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Interesting facts</li>
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Food jokes and trivia</li>
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Chicken nugget facts</li>
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Rate limiting for spam protection</li>
+                            <li class="feature-item"><i class="fas fa-check-circle"></i> Usage statistics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bot-info-right">
+                    <h2>Getting Started</h2>
+                    <p>Jokes & Facts Bot uses the <code>.</code> prefix for all commands. To get started, just type <code>.help</code> in any channel where the bot has access.</p>
+                    <p>The bot has various categories of jokes and facts that you can explore using the commands listed below. For the best experience, try different categories to find what your server enjoys most!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="commands-section">
+            <h2 class="section-title">Bot Commands</h2>
+            <div class="commands-container jokes-theme">
+                <div class="command-group">
+                    <div class="command-group-header">
+                        <span>General Commands</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="command-list">
+                        <div class="command">
+                            <span class="command-name">.help</span>
+                            <p class="command-description">Shows a list of available commands</p>
+                            <div class="command-example">.help</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.stats</span>
+                            <p class="command-description">Shows bot usage statistics</p>
+                            <div class="command-example">.stats</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-group">
+                    <div class="command-group-header">
+                        <span>Joke Commands</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="command-list">
+                        <div class="command">
+                            <span class="command-name">.joke</span>
+                            <p class="command-description">Get a random joke from any category</p>
+                            <div class="command-example">.joke</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke dad</span>
+                            <p class="command-description">Get a dad joke</p>
+                            <div class="command-example">.joke dad</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke programming</span>
+                            <p class="command-description">Get a programming/developer joke</p>
+                            <div class="command-example">.joke programming</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke pun</span>
+                            <p class="command-description">Get a pun joke</p>
+                            <div class="command-example">.joke pun</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke spooky</span>
+                            <p class="command-description">Get a spooky/Halloween joke</p>
+                            <div class="command-example">.joke spooky</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke christmas</span>
+                            <p class="command-description">Get a Christmas/holiday joke</p>
+                            <div class="command-example">.joke christmas</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke chuck</span>
+                            <p class="command-description">Get a Chuck Norris joke</p>
+                            <div class="command-example">.joke chuck</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.joke dark</span>
+                            <p class="command-description">Get a dark joke (NSFW channels only)</p>
+                            <div class="command-example">.joke dark</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-group">
+                    <div class="command-group-header">
+                        <span>Fact Commands</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="command-list">
+                        <div class="command">
+                            <span class="command-name">.fact</span>
+                            <p class="command-description">Get a random interesting fact</p>
+                            <div class="command-example">.fact</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.fact random</span>
+                            <p class="command-description">Get a random general fact</p>
+                            <div class="command-example">.fact random</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.fact food</span>
+                            <p class="command-description">Get a fact about food</p>
+                            <div class="command-example">.fact food</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.fact animal</span>
+                            <p class="command-description">Get a fact about animals</p>
+                            <div class="command-example">.fact animal</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-group">
+                    <div class="command-group-header">
+                        <span>Special Commands</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="command-list">
+                        <div class="command">
+                            <span class="command-name">.nugget</span>
+                            <p class="command-description">Get a chicken nugget fact</p>
+                            <div class="command-example">.nugget</div>
+                        </div>
+                        <div class="command">
+                            <span class="command-name">.food</span>
+                            <p class="command-description">Get a food joke</p>
+                            <div class="command-example">.food</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg class="logo-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z" fill="currentColor"/>
+                </svg>
+                <span>DiscordBots</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Bots</h3>
+                    <ul>
+                        <li><a href="how-to-make.html">How To Make</a></li>
+                        <li><a href="space-bot.html">Space Bot</a></li>
+                        <li><a href="jokes-facts.html">Jokes & Facts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul class="social-links">
+                        <li><a href="https://discord.gg/5mjxPjyxaC" target="_blank"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 DiscordBots. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
