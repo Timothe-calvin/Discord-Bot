@@ -194,10 +194,7 @@ button, .btn {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://pixabay.com/get/g47cffb03c864f23e0dcbab994b7e4ca6fa8fc816b2606490c87747b7f09a22ccb2afe64d797aed808d29c51f22bd0f46573daf1c9ba480218419577f88c2572b_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: brightness(0.4);
+    background-color: var(--primary-color);
     z-index: -1;
 }
 
@@ -307,17 +304,13 @@ button, .btn {
 .bot-img {
     height: 200px;
     overflow: hidden;
-}
-
-.bot-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform var(--transition-slow);
-}
-
-.bot-card:hover .bot-img img {
-    transform: scale(1.05);
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .bot-info {
@@ -434,10 +427,15 @@ button, .btn {
     margin-right: var(--spacing-sm);
 }
 
-.dash-image img {
+.dash-image {
+    background-color: var(--dark-color);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-lg);
-    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
 }
 
 /* Commands Section (for bot pages) */
@@ -554,8 +552,12 @@ button, .btn {
     height: 120px;
     border-radius: 50%;
     margin: 0 auto var(--spacing-md);
-    object-fit: cover;
-    border: 4px solid var(--primary-color);
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
 }
 
 .bot-name {
@@ -728,6 +730,35 @@ footer {
     color: #A0AEC0;
 }
 
+/* Bot specific colors */
+.how-to-make-theme .command-group-header {
+    background-color: var(--how-to-color);
+}
+
+.how-to-make-theme .command-name {
+    color: var(--how-to-color);
+    background-color: rgba(87, 242, 135, 0.1);
+}
+
+.space-theme .command-group-header {
+    background-color: var(--space-color);
+}
+
+.space-theme .command-name {
+    color: var(--space-color);
+    background-color: rgba(114, 137, 218, 0.1);
+}
+
+.jokes-theme .command-group-header {
+    background-color: var(--joke-color);
+    color: var(--dark-color);
+}
+
+.jokes-theme .command-name {
+    color: var(--dark-color);
+    background-color: rgba(254, 231, 92, 0.3);
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .hero h1 {
@@ -809,33 +840,4 @@ footer {
     .bot-name {
         font-size: 2rem;
     }
-}
-
-/* Bot specific colors */
-.how-to-make-theme .command-group-header {
-    background-color: var(--how-to-color);
-}
-
-.how-to-make-theme .command-name {
-    color: var(--how-to-color);
-    background-color: rgba(87, 242, 135, 0.1);
-}
-
-.space-theme .command-group-header {
-    background-color: var(--space-color);
-}
-
-.space-theme .command-name {
-    color: var(--space-color);
-    background-color: rgba(114, 137, 218, 0.1);
-}
-
-.jokes-theme .command-group-header {
-    background-color: var(--joke-color);
-    color: var(--dark-color);
-}
-
-.jokes-theme .command-name {
-    color: var(--dark-color);
-    background-color: rgba(254, 231, 92, 0.3);
 }

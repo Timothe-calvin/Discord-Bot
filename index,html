@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord Bots Hub - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta name="description" content="Discover our collection of useful Discord bots for your server.">
 </head>
@@ -26,11 +26,11 @@
             </div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="pages/how-to-make.html">How To Make</a></li>
-                <li><a href="pages/space-bot.html">Space Bot</a></li>
-                <li><a href="pages/jokes-facts.html">Jokes & Facts</a></li>
-                <li><a href="pages/terms.html">Terms</a></li>
-                <li><a href="pages/privacy.html">Privacy</a></li>
+                <li><a href="how-to-make.html">How To Make</a></li>
+                <li><a href="space-bot.html">Space Bot</a></li>
+                <li><a href="jokes-facts.html">Jokes & Facts</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
             </ul>
         </nav>
     </header>
@@ -53,13 +53,13 @@
             <div class="bots-container">
                 <div class="bot-card">
                     <div class="bot-img">
-                        <img src="https://pixabay.com/get/g5cbf3f9ea49ef1fdff21e8fb2b12fc8a647c0bfcef8c51772022e67ee7d52a0c1d2a94a2743562ec07ce2a368087c5b3982ecca6099346317f3add10643cd39d_1280.jpg" alt="How To Make Bot">
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
                     <div class="bot-info">
                         <h3>How To Make</h3>
                         <p>Educational bot to learn Discord, Twitch, and Slack bot development</p>
                         <div class="bot-actions">
-                            <a href="pages/how-to-make.html" class="btn secondary">View Details</a>
+                            <a href="how-to-make.html" class="btn secondary">View Details</a>
                             <a href="https://discord.com/oauth2/authorize?client_id=1370559249075142789" class="btn primary" target="_blank">Invite Bot</a>
                         </div>
                     </div>
@@ -67,13 +67,13 @@
 
                 <div class="bot-card">
                     <div class="bot-img">
-                        <img src="https://pixabay.com/get/g0efb2bd457cb9b5e2c9b0bdb8db8d78041d8dc2694ff1c78eb9fa456c4e4731ec6f1cb6d76665dddf3f795100edf95e156d9d5d9b5e894cb625c5565d06af3f1_1280.jpg" alt="Space Bot">
+                        <i class="fas fa-rocket"></i>
                     </div>
                     <div class="bot-info">
                         <h3>Space Bot</h3>
                         <p>Multi-purpose bot with moderation, utilities, and fun commands</p>
                         <div class="bot-actions">
-                            <a href="pages/space-bot.html" class="btn secondary">View Details</a>
+                            <a href="space-bot.html" class="btn secondary">View Details</a>
                             <a href="https://discord.com/oauth2/authorize?client_id=1342743661070254253" class="btn primary" target="_blank">Invite Bot</a>
                         </div>
                     </div>
@@ -81,13 +81,13 @@
 
                 <div class="bot-card">
                     <div class="bot-img">
-                        <img src="https://pixabay.com/get/g6683748cd7cba87974b3dcb742ef5178feae628f381397fc0e330fa0acb8a4f4350117610da08b6b389e0baff3d7e5124930924afad72a52df4192e03be19f2c_1280.jpg" alt="Jokes & Facts Bot">
+                        <i class="fas fa-laugh-beam"></i>
                     </div>
                     <div class="bot-info">
                         <h3>Jokes & Facts Bot</h3>
                         <p>Entertaining bot with jokes, facts, and fun commands</p>
                         <div class="bot-actions">
-                            <a href="pages/jokes-facts.html" class="btn secondary">View Details</a>
+                            <a href="jokes-facts.html" class="btn secondary">View Details</a>
                             <a href="https://discord.com/oauth2/authorize?client_id=1368755467790192711" class="btn primary" target="_blank">Invite Bot</a>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                 </ul>
             </div>
             <div class="dash-image">
-                <img src="https://pixabay.com/get/gd47657b6098c64f0b0b5496caa59edbf6e0eace8f714541f00f275805d9ee347d4b78ca7d18ca0c54d7b17dad7d42b983d2fb7c8c169d869ee4e5562e58db8a6_1280.jpg" alt="Dashboard Interface">
+                Dashboard Interface Preview
             </div>
         </section>
     </main>
@@ -158,16 +158,16 @@
                 <div class="footer-column">
                     <h3>Bots</h3>
                     <ul>
-                        <li><a href="pages/how-to-make.html">How To Make</a></li>
-                        <li><a href="pages/space-bot.html">Space Bot</a></li>
-                        <li><a href="pages/jokes-facts.html">Jokes & Facts</a></li>
+                        <li><a href="how-to-make.html">How To Make</a></li>
+                        <li><a href="space-bot.html">Space Bot</a></li>
+                        <li><a href="jokes-facts.html">Jokes & Facts</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Legal</h3>
                     <ul>
-                        <li><a href="pages/terms.html">Terms of Service</a></li>
-                        <li><a href="pages/privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -185,6 +185,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
